@@ -8,11 +8,10 @@ function enviarDados(e){
     xhr.open("GET", "https://api.ipify.org?format=json");
     
     xhr.addEventListener("load", function(){
-        var nome = coletaDados("nome");
+        var nome = validaNome("nome");
         var email = coletaDados("email");
         var data = dataCompleta();
         var ip = JSON.parse(xhr.responseText).ip;
-    
     
         salvaLeads(nome, email, data, ip);
         
@@ -20,9 +19,7 @@ function enviarDados(e){
     xhr.send();
 } 
 
-
 function coletaDados(id){
     return document.getElementById(id).value;
 }
-
 
