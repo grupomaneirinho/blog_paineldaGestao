@@ -4,11 +4,14 @@ body {
 
 .container-section-1 {
     background-image: url("../imgs/fundo painel de gestao.jpg");
-    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: 99vw 51vh;
     height: 50vh;
     z-index: -1;
     text-align: center;
-    justify-content: space-around;
+}
+
+.container-sub-1 {
     padding-top: 15vh;
 }
 
@@ -20,8 +23,46 @@ body {
     color: white;
 }
 
+::-webkit-input-placeholder {
+    color: white;
+}
+
+ :-moz-placeholder {
+    /* Firefox 18- */
+    color: white;
+}
+
+ ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: white;
+}
+
+ :-ms-input-placeholder {
+    color: white;
+}
+
+.form-control-modified {
+    color: #fff;
+    background-color: #5f64a0;
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    background-image: none;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+    -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+    -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+}
+
 .form-content {
-    align-items: baseline;
+    align-items: center;
     background-color: #2d3f71;
     padding: 2vh 0 2vh 0;
 }
@@ -43,21 +84,47 @@ body {
 }
 
 .container-sec-sub {
+    display: flex;
     flex-flow: row wrap;
     flex: 8 80%;
     background-color: white;
     padding: 0 2vh 0 0;
+    margin-bottom: 3vh;
+    height: 40vh;
 }
 
 .card-image {
-    float: left;
-    width: 21vw;
     order: 0;
-    height: 30vh;
-    flex: 2%;
+    flex: 2 20%;
+    padding-right: 2vw;
+    width: 25vw;
 }
 
 .text-content {
     order: 1;
-    flex: 5;
+    flex: 5 30%;
+}
+
+.btn-customized {
+    float: right;
+}
+
+.footer-config {
+    display: flex;
+    background-color: #2d3f71;
+    height: 7vh;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+}
+
+.footer-config p {
+    margin-left: 1vw;
+}
+
+.icons-config {
+    color: white;
+    font-size: 4vh;
+    margin-right: 2vw;
+    align-items: center;
 }
