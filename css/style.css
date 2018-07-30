@@ -1,0 +1,63 @@
+body {
+    background-color: #ece9e9;
+}
+
+.container-section-1 {
+    background-image: url("../imgs/fundo painel de gestao.jpg");
+    width: 100vw;
+    height: 50vh;
+    z-index: -1;
+    text-align: center;
+    justify-content: space-around;
+    padding-top: 15vh;
+}
+
+.container-section-1 p,
+.container-section-1 h2,
+.container-section-1 h3,
+.container-section-1 h4,
+.container-section-1 h5 {
+    color: white;
+}
+
+.form-content {
+    align-items: baseline;
+    background-color: #2d3f71;
+    padding: 2vh 0 2vh 0;
+}
+
+.form-content h5,
+.form-content p {
+    color: white;
+}
+
+
+/* Começando seção 2 */
+
+.container-sec-2 {
+    flex-flow: row wrap;
+    display: flex;
+    align-items: center;
+    padding: 2vh 0 2vh 0;
+    justify-content: space-around;
+}
+
+.container-sec-sub {
+    flex-flow: row wrap;
+    flex: 8 80%;
+    background-color: white;
+    padding: 0 2vh 0 0;
+}
+
+.card-image {
+    float: left;
+    width: 21vw;
+    order: 0;
+    height: 30vh;
+    flex: 2%;
+}
+
+.text-content {
+    order: 1;
+    flex: 5;
+}
