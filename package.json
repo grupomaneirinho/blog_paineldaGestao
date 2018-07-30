@@ -1,0 +1,25 @@
+{
+    "name": "Painel_Da_Gestao",
+    "version": "1.0.0",
+    "description": "",
+    "author": "",
+    "private": true,
+    "scripts": {
+        "start": "npm run dev",
+        "test": "npm run unit",
+        "build": "node build/build.js"
+    },
+    "dependencies": {
+
+    },
+    "devDependencies": {},
+    "engines": {
+        "node": ">= 4.0.0",
+        "npm": ">= 3.0.0"
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not ie <= 8"
+    ]
+}
