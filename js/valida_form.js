@@ -1,7 +1,7 @@
 
 function validaNome(nome){    
     if(!isTipo(nome)){
-        return alert("Por favor preencher nome e sobrenome!");
+        return alert("Por favor preencher nome completo!");
 }else{
     return coletaDados("nome");
     }

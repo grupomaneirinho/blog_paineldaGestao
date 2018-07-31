@@ -17,8 +17,8 @@
         <!-- <img src="" class="img-fluid image-sec-1"> -->
         <div class="col-md-12">
             <ul class="nav justify-content-end">
-                <li class="nav-item"> <a class="nav-link active text-white" href="#">Conteúdo</a></li>
-                <li class="nav-item"> <a class="nav-link active text-white" href="#">Contato</a></li>
+                <li class="nav-item"> <a class="nav-link active text-white" href="#conteudo">Conteúdo</a></li>
+                <li class="nav-item"> <a class="nav-link active text-white" href="#contato">Contato</a></li>
             </ul>
         </div>
         <div class="col-md-12 align-self-center container-sub-1">
@@ -42,10 +42,10 @@
                     <form id="formulario">
                         <div class="row">
                             <div class="col-md-6">
-                                <input type="text" name="nome" id="nome" class="form-control-modified" placeholder="Coloque seu nome Completo">
+                                <input type="text" name="nome" id="nome" class="form-control-modified" placeholder="Coloque seu nome Completo" required>
                             </div>
                             <div class="col-md-4">
-                                <input type="email" name="email" id="email" class="form-control-modified" placeholder="Adicione o seu e-mail">
+                                <input type="email" name="email" id="email" class="form-control-modified" placeholder="Adicione o seu e-mail" required>
                             </div>
                             <div class="">
                                 <button class="btn btn-success">CADASTRE</button>
@@ -57,15 +57,15 @@
         </div>
     </div>
 </section>
-<section class="container-sec-2 col-md-9 offset-1">
+<section class="container-sec-2 col-md-9 offset-1" id="conteudo">
     <div class="container-sec-sub">
         <img class="card-image" src="imgs/img-2.jpg" alt="Card image cap">
-        <div class="text-content">
+        <div class="text-content pt-4">
             <h5 class="">COMO FICAR RICO EMPREENDENDO ?</h5>
             <P>Lorem ipsum sagittis quis sagittis eget faucibus vehicula venenatis malesuada sollicitudin purus condimentum, amet varius erat fusce iaculis quisque laoreet odio primis pretium vehicula. feugiat ullamcorper donec dictumst duis interdum aliquet
                 interdum urna, sit mattis congue arcu lobortis imperdiet mauris, semper auctor diam porttitor ut netus ipsum.
             </P>
-            <button class="btn btn-primary btn-customized">Leia Mais</button>
+            <a href="content_page.html"><button class="btn btn-primary btn-customized mt-3">Leia Mais</button></a>
         </div>
     </div>
     <div class="container-sec-sub">
@@ -75,16 +75,20 @@
             <P>Lorem ipsum sagittis quis sagittis eget faucibus vehicula venenatis malesuada sollicitudin purus condimentum, amet varius erat fusce iaculis quisque laoreet odio primis pretium vehicula. feugiat ullamcorper donec dictumst duis interdum aliquet
                 interdum urna, sit mattis congue arcu lobortis imperdiet mauris, semper auctor diam porttitor ut netus ipsum.
             </P>
-            <button class="btn btn-primary btn-customized">Leia Mais</button>
+            <a href="content_page_2.html"><button class="btn btn-primary btn-customized">Leia Mais</button></a>
         </div>
     </div>
 </section>
 <section>
-    <footer class="fixed-bottom footer-config">
+    <footer class="fixed-bottom footer-config" id="contato">
         <p>Painel da Gestão | Todos os direitos reservados</p>
         <div>
-            <i class="fab fa-facebook-square icons-config"></i>
-            <i class="fab fa-instagram icons-config"></i>
+           <a href="https://www.facebook.com/Painel-da-Gestão-263175947798524/" target="_blank">
+               <i class="fab fa-facebook-square icons-config"></i>
+            </a>
+           <a href="https://www.instagram.com/paineldagestao/" target="_blank">
+               <i class="fab fa-instagram icons-config"></i>
+            </a>
         </div>
     </footer>
 </section>

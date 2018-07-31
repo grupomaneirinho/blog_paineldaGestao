@@ -14,6 +14,7 @@ function enviarDados(e){
         var ip = JSON.parse(xhr.responseText).ip;
     
         salvaLeads(nome, email, data, ip);
+        alert("Cadastro realizado com sucesso!")
         
     })
     xhr.send();
