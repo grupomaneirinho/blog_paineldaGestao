@@ -1,5 +1,6 @@
 body{
     background-color: #E4E4EC;
+    background-size: auto;
 }
 
 .cabecalhoPrincipal{
@@ -10,6 +11,8 @@ body{
             rgba(47,64,123,1)
         ),
         url("../imgs/img-5.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     width: 100%;
     height: 500px;
     padding: 20px 0;
@@ -46,7 +49,7 @@ body{
     display: flex;
     background-color: #314175;
     height: 400px;
-    padding: 20px 0;
+    padding: 35px 0;
     position: relative;
     top: -100px; 
     right: 15%;
@@ -64,7 +67,74 @@ body{
     top: -350px; 
     right: 0;
     left: 15%;
-    justify-content: center;
+    justify-content:space-between;
     color: #000000;
 }
 
+
+::-webkit-input-placeholder {
+    color: white;
+}
+
+ :-moz-placeholder {
+    /* Firefox 18- */
+    color: white;
+}
+
+ ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: white;
+}
+
+ :-ms-input-placeholder {
+    color: white;
+}
+
+
+.form-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6F7171;
+    padding: 2vh 0 10vh 4vh;
+    color: white;
+}
+
+.form-control-modified {
+    color: solid white;
+    background-color: #6F7171;
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    background-image: none;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid white;
+    border-radius: 0.25rem;
+    -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+    -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+}
+
+.footer-config {
+    display: flex;
+    background-color: #2d3f71;
+    height: 7vh;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+}
+
+.footer-config p {
+    margin-left: 1vw;
+}
+
+.icons-config {
+    color: solid white;
+    font-size: 4vh;
+    margin-right: 2vw;
+    align-items: center;
+}
