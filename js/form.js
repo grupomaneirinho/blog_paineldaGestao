@@ -14,13 +14,18 @@ function enviarDados(e){
         var ip = JSON.parse(xhr.responseText).ip;
     
         salvaLeads(nome, email, data, ip);
-        alert("Cadastro realizado com sucesso!")
-        
+        alert("Cadastro realizado com sucesso!");
+        resetForm();
     })
     xhr.send();
 } 
 
 function coletaDados(id){
     return document.getElementById(id).value;
+}
+
+function resetForm(){
+    var form = document.querySelector("#formulario");
+    return form.reset();
 }
 
