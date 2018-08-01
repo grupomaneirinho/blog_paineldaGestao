@@ -54,24 +54,24 @@
             <div class="container">
                 <p>Gestão do tempo e produtividade são pontos chave para quem quer ter um empreendimento de sucesso, tomar decisões de forma inteligente e conquistar uma boa qualidade de vida, mas muitas vezes introduzi-los no dia a dia da empresa não é
                     tão simples. Se você está com dificuldades para garantir um bom gerenciamento de tempo da sua equipe leia essas 4 dicas que preparamos para te ajudar:</p>
-                <P>
-                    <h5>1. Atente-se à rotina</h5>
-                </P>
+                
+                <h5>1. Atente-se à rotina</h5>
+                
                 <p>O primeiro passo é atentar-se à rotina, muitas vezes os hábitos rotineiros passam despercebidos e isso pode resultar em baixa produtividade e má gestão do tempo. Já se deparou com alguma distração durante uma tarefa simples e acabou demorando
                     muito mais para concluir essa tarefa do que deveria? Se a resposta for sim ou se você se identifica com esse tipo de situação, vale a pena parar um momento para refletir sobre os hábitos que devem ser descartados da sua rotina.</p>
-                <p>
+                
                     <h5>2. Otimize tarefas diárias</h5>
-                </p>
+                
                 <p>Uma vez que você já sabe quais são os vilões da sua rotina e os eliminou, crie um sistema de tarefas diárias, coloque as atividades que deseja realizar e o prazo que cada uma deve ocupar. Assim é possível visualizar com clareza como cada
                     tarefa está sendo realizada e quais são as formas para otimizá-las. Focar na realização de uma tarefa por vez também é um método poderoso para evitar retrabalhos, tornando seu dia mais produtivo.</p>
-                <p>
+                
                     <h5>3. Tenha metas claras</h5>
-                </p>
+                
                 <p>Estabelecer metas claras é essencial, dessa forma tanto você quanto sua equipe saberão o que deve ser feito e quando deve ser feito, facilitando o foco e melhorando a produtividade. Uma comunicação assertiva sobre metas e objetivos é um
                     passo importante para conquistar uma gestão de tempo eficaz e alavancar os resultados.</p>
                 <p>
                     <h5>4. Invista em tecnologia</h5>
-                </p>
+                
                 <p>A tecnologia têm se mostrado cada vez mais eficaz quando o assunto é praticidade, confiabilidade, transparência e rapidez. Manter o controle de todas as informações da sua empresa e ter um fluxo de gestão produtivo pode ser mais fácil
                     do que você imagina. Um bom exemplo disso é o sistema de gestão integrada ERP que permite o registro e acompanhamento de ocorrências em um mesmo lugar, garantindo assertividade na tomada de decisões e evitando retrabalhos, o que pode
                     impactar diretamente no crescimento da sua empresa.</p>
@@ -84,22 +84,24 @@
     <section>
         <div class="col-md-12">
             <div class="row form-content">
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <h5>Cadastre-se ao Painel Da Gestão</h5>
                     <p>e receba artigos e dicas imperdíveis</p>
                 </div>
                 <div class="col-md-7 offset-1">
+                   <form id="formulario">
                     <div class="row">
                         <div class="col-md-6">
-                            <input type="text" class="form-control-modified" placeholder="Coloque seu nome Completo">
+                            <input type="text" id="nome" name="nome" class="form-control-modified" placeholder="Coloque seu nome Completo" required>
                         </div>
                         <div class="col-md-4">
-                            <input type="email" class="form-control-modified" placeholder="Adicione o seu e-mail">
+                            <input type="email" id="email" name="email" class="form-control-modified" placeholder="Adicione o seu e-mail" required>
                         </div>
                         <div class="">
                             <button class="btn btn-warning">CADASTRE</button>
                         </div>
                     </div>
+                </form>
                 </div>
             </div>
         </div>
@@ -119,11 +121,13 @@
         </footer>
 
     </section>
-
-
-
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/valida_form.js"></script>
+    <script src="js/conecta_firebase.js"></script>
 </body>
+</html>
