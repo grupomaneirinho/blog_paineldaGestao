@@ -20,7 +20,7 @@
     <title>Painel da Gestão</title>
     <!--<link rel="icon" href="#" type="image/logo">-->
     <link rel="stylesheet" href="node_modules/bootstrap-v4-dev/dist/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/gestao-tempo.css">
+    <link rel="stylesheet" type="text/css" href="css/gestao-enxuta.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -52,7 +52,7 @@
         </div>
         <div class="texto-conteudo">
             <div class="container">
-               <p>Você já ouviu falar sobre <b>gestão enxuta</b>? A ideia parece simples: fazer o máximo com o mínimo de recursos. É isso que idealizou <a href="https://pt.wikipedia.org/wiki/Taiichi_Ohno">Taiichi Ohno</a>, lá depois da Segunda Guerra mundial, e sabe o que surgiu disso? O Toyotismo (ou <i>Lean Manufacturing</i>)! Como assim estamos falando de Toyotismo aqui? Calma, pega um cházinho quentinho e senta aí que vamos te explicar onde tudo isso vai chegar.</p>
+               <p>Você já ouviu falar sobre <b>gestão enxuta</b>? A ideia parece simples: fazer o máximo com o mínimo de recursos. É isso que idealizou <a href="https://pt.wikipedia.org/wiki/Taiichi_Ohno">Taiichi Ohno</a>, precursor da produção enxuta, lá depois da Segunda Guerra mundial, e sabe o que surgiu disso? O Toyotismo (ou <i>Lean Manufacturing</i>)! Como assim estamos falando de Toyotismo aqui? Calma, pega um cházinho quentinho e senta aí que vamos te explicar onde tudo isso vai chegar.</p>
                <p>Se a sua empresa tem produção fundamentada em grandes lotes, com intervalos entre as etapas, que custam muito material e estoque, provavelmente você não está entregando o que o seu cliente quer. Isso se dá pelo fato de que o que você oferece ao cliente é o seu produto e não a solução para o problema dele. Aí entra o Toyotismo, onde a ideia é maximizar o <a href="http://www.blogdaqualidade.com.br/3-principios-para-gerar-valor-para-clientes/">valor do cliente</a> e minimizar o desperdício, isso é <i>Lean</i>: criar mais valor para clientes com menos recursos.</p>
                <p>Muitas empresas adotam essa metodologia, a Dell, por exemplo, fabrica seus computadores de acordo com o gosto do cliente no menor tempo possível. Mas a grande sacada é não só focar na linha de produção, e sim na gestão! Sabe qual é o diferencial das empresas que tem a mentalidade Lean? Elas trabalham com orçamentos cada vez menores e metas cada vez mais altas. Imagine, não é muito mais fácil evitar falhas uma vez que se conhece o trabalho do cliente? E isso se dá ao fato de que a comunicação pode ser aperfeiçoada. No final das contas, a <b>Gestão Enxuta</b> é isso, trazer os fundamentos das experiências da Toyota para a gestão da empresa.</p>
                <p>A metodologia proposta pela gestão enxuta é muito mais do que apenas mudar um plano de negócio, é implantar uma cultura na gestão do negócio. Pela gestão enxuta, é possível obter mais flexibilidade nos processos, reduzir custos, promover o trabalho em equipe, realizar ações de prevenção com mais regularidade e fortalecer valores importantes como a organização, disciplina e simplicidade.</p>
@@ -67,7 +67,7 @@
                <h5>3 - Ciclo de melhoria</h5>
                <p>É o momento em que são apurados todos os resultados gerados do item anterior. A ideia é identificar lições aprendidas e melhorias. A partir daí, o sucesso se dará pela capacidade da equipe em resolver problemas e conseguir identificar e implementar os anseios dos clientes pelo produto/serviço, conforme a velocidade que o mercado deseje. Esta etapa é um trabalho contínuo e vital para o sucesso, e é o que remete à gestão ágil e eficaz.</p>
                 <br>
-                <p>E aí, quer saber mais? Se <b>cadastre</b> então para receber mais materiais!</p>
+                <p>E aí, quer saber mais? Se <b><a href="#formulario">cadastre</a></b> então para receber mais materiais!</p>
                 <p><i>Camila Trópia | Front-end dev | Painel da Gestão</i></p>
             </div>
         </div>
@@ -90,7 +90,7 @@
                             <input type="email" id="email" name="email" class="form-control-modified" placeholder="Adicione o seu e-mail" required>
                         </div>
                         <div class="">
-                            <button class="btn btn-warning">CADASTRE</button>
+                            <button class="btn btn-warning" onClick=”_gaq.push([‘_trackEvent’,‘leads’,‘botao’,‘cadastrar’,0,true]);”>CADASTRE</button>
                         </div>
                     </div>
                 </form>
