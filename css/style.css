@@ -2,7 +2,7 @@ body {
     background-color: #ece9e9;
 }
 
-.logo{
+.logo {
     align-items: center;
     width: 35%;
     padding-bottom: 2vh;
@@ -15,22 +15,22 @@ body {
     padding-top: 2vh;
 }
 
-.nav{
+.nav {
     padding: 20px 0;
 }
 
-.li-text{
-    color:rgb(36,54,107);
+.li-text {
+    color: rgb(36, 54, 107);
 }
 
-.banner{
+.banner {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.text-banner{
-    background-color: rgba(36,54,107,0.5);
+.text-banner {
+    background-color: rgba(36, 54, 107, 0.5);
     display: flex;
     justify-content: center;
     width: 100%;
@@ -147,14 +147,14 @@ body {
 
 .footer-config {
     display: flex;
-    background-color: #2d3f71;
-    height: 7vh;
+    background-color: #67696e;
+    height: 10vh;
     align-items: center;
     color: white;
     justify-content: space-between;
 }
 
-.footer-config p {
+.footer-config span {
     margin-left: 1vw;
 }
 
