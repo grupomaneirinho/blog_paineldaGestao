@@ -1,23 +1,22 @@
-body{
+body {
     background-color: #E4E4EC;
     background-size: auto;
 }
 
-.cabecalhoPrincipal{
-    background-image: 
-        linear-gradient(
-            to top,
-            rgba(0,0,0,0),
-            rgba(47,64,123,1)
-        ),
-        url("../imgs/img-17.jpg");
+.logo {
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.cabecalhoPrincipal {
+    background-image: linear-gradient( to top, rgba(0, 0, 0, 0), rgba(47, 64, 123, 1)), url("../imgs/img-17.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 100%;
     height: 500px;
     padding: 20px 0;
     display: flex;
-
 }
 
 .cabecalhoPrincipal-titulo {
@@ -31,7 +30,7 @@ body{
     color: #ffffff;
 }
 
-.cabecalhoPrincipal-nav{
+.cabecalhoPrincipal-nav {
     display: flex;
 }
 
@@ -45,32 +44,31 @@ body{
     display: block;
 }
 
-.titulo-conteudo{
+.titulo-conteudo {
     display: flex;
     background-color: #314175;
-    height: 400px;
-    padding: 35px 0;
+    height: 300px;
+    padding: 30px 0 0 500px;
     position: relative;
-    top: -100px; 
+    top: -150px;
     right: 15%;
     text-align: center;
     color: #ffffff;
 }
 
-.texto-conteudo{
+.texto-conteudo {
     display: flex;
     background-color: #ffffff;
     height: auto;
     width: 70%;
     padding: 20px 0;
     position: relative;
-    top: -350px; 
+    top: -300px;
     right: 0;
     left: 15%;
-    justify-content:space-between;
+    justify-content: space-between;
     color: #000000;
 }
-
 
 ::-webkit-input-placeholder {
     color: white;
@@ -90,19 +88,18 @@ body{
     color: white;
 }
 
-
 .form-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #6F7171;
-    padding: 2vh 0 10vh 4vh;
+    background-color: #2d3f71;
+    padding: 2vh 0 4vh 4vh;
     color: white;
 }
 
 .form-control-modified {
     color: solid white;
-    background-color: #6F7171;
+    background-color: #5f64a0;
     width: 100%;
     padding: 0.5rem 0.75rem;
     font-size: 1rem;
@@ -121,21 +118,19 @@ body{
 
 .footer-config {
     display: flex;
-    background-color: #2d3f71;
-    height: 7vh;
-    width: 100%;
+    background-color: #67696e;
+    height: 10vh;
     align-items: center;
     color: white;
     justify-content: space-between;
-
 }
 
-.footer-config p {
+.footer-config span {
     margin-left: 1vw;
 }
 
 .icons-config {
-    color: solid white;
+    color: white;
     font-size: 4vh;
     margin-right: 2vw;
     align-items: center;
