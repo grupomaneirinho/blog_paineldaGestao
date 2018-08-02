@@ -166,3 +166,18 @@ body {
     margin-right: 2vw;
     align-items: center;
 }
+
+.ebook{
+    display: flex;
+    background-color: #ff944d;
+    color:#4d4d4d;
+    font-size: 4vh;
+    margin-right: 2vw;
+    align-items: center;
+    padding: 1vh 2vh 2vh 2vh;
+    width: 100%;
+}
+.ebook_download{
+    display: flex;
+    justify-content: center;
+}
