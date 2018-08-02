@@ -15,6 +15,7 @@ function enviarDados(e){
     
         salvaLeads(nome, email, data, ip);
         alert("Cadastro realizado com sucesso!");
+        window.location.replace("https://paineldagestao.com.br/docs/ebook.pdf");
         resetForm();
     })
     xhr.send();
