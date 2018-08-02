@@ -167,6 +167,12 @@ body {
     align-items: center;
 }
 
+.botao-baixar{
+    background-color: #f08c0e;
+    color: white;
+    font-weight: bold;
+}
+
 .ebook{
     display: flex;
     background-color: #ff944d;
