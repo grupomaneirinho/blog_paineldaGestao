@@ -21,7 +21,7 @@ function enviarDadosExcel(e) {
         var ip = JSON.parse(xhr.responseText).ip;
 
         salvaLeads(nome, email, data, ip);
-        resetForm();
+        resetFormExcel();
 
         $('#myModal').modal({ backdrop: 'static', keyboard: false })
 
@@ -53,6 +53,11 @@ function enviarDados(e) {
 
 function coletaDados(id) {
     return document.getElementById(id).value;
+}
+
+function resetFormExcel() {
+    var form = document.querySelector("#formulario-planilha");
+    return form.reset();
 }
 
 function resetForm() {
