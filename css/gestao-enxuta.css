@@ -135,3 +135,11 @@ body {
     margin-right: 2vw;
     align-items: center;
 }
+
+.imagem{
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 2vh;
+    width: 50%;
+}
